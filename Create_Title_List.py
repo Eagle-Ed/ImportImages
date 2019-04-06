@@ -93,9 +93,7 @@ def main():
         title_line = create_title_list(file_path)
         file_main.write(title_line)
     file_main.close()
-        
-        
- 
+
 
 if __name__ == '__main__':
     main()
