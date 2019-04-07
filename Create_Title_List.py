@@ -71,8 +71,8 @@ def create_title_list(file_path):
         title = found.group(2)
 
     print start_date + ';' + end_date + ';' + title + ';' + file_path
-    title_ine = start_date + ';' + end_date + ';' + title + ';' + file_path + '\n'
-    return title_ine
+    title_line = start_date + ';' + end_date + ';' + title + ';' + file_path + '\n'
+    return title_line
     
 def read_picture_date(picture):
     f = open(picture, 'rb')
